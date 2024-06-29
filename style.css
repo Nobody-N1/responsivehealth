@@ -44,7 +44,7 @@ p {
   font-size: 16px;
   color: #150c01cc;
 }
-header{
+header {
   background-color: #ffffff;
   width: 100%;
   position: fixed;
@@ -56,7 +56,6 @@ header{
   align-items: center;
   justify-content: space-between;
   width: 100%;
-  
 }
 .hdiv {
   display: flex;
@@ -89,20 +88,18 @@ header{
 .hdiv a {
   text-decoration: none;
 }
-.hum{
+.hum {
   display: none;
   width: 60px;
   height: 60px;
 }
 
-@media only screen and (max-width:730px) {
-  
+@media only screen and (max-width: 730px) {
   .header {
     display: flex;
     align-items: center;
     justify-content: space-between;
     width: 100%;
-    
   }
   .hdiv {
     display: flex;
@@ -132,9 +129,7 @@ header{
     text-decoration: none;
   }
 }
-@media only screen and (max-width:600px) {
-  
-  
+@media only screen and (max-width: 600px) {
   .hdiv {
     display: flex;
     align-items: center;
@@ -154,16 +149,16 @@ header{
     left: 984px; */
   }
 }
-@media only screen and (max-width:510px) {
-  .humburgermenu{
+@media only screen and (max-width: 510px) {
+  .humburgermenu {
     display: flex;
     align-items: center;
     gap: 30px;
   }
-  .items{
+  .items {
     display: none;
   }
-  .hum{
+  .hum {
     display: block;
     width: 60px;
     height: 60px;
@@ -217,7 +212,7 @@ header{
   left: 500px;
   top: 0;
 }
-@media only screen and (max-width:768px) {
+@media only screen and (max-width: 768px) {
   .foodtime {
     width: 100%;
     height: 356px;
@@ -235,7 +230,7 @@ header{
     font-weight: bold;
     font-size: 48.83px;
   }
-  .foodtime p{
+  .foodtime p {
     font-size: 18px;
   }
   .onfd {
@@ -271,7 +266,7 @@ header{
     top: -50;
   }
 }
-@media only screen and (max-width:360px) {
+@media only screen and (max-width: 360px) {
   .foodtime {
     width: 330px;
     align-items: center;
@@ -347,7 +342,7 @@ header{
   display: grid;
   place-content: center;
 }
-@media only screen and (max-width:360px) {
+@media only screen and (max-width: 360px) {
   .cards {
     flex-direction: column;
     column-gap: 0;
@@ -395,8 +390,8 @@ header{
   background-color: #dc780b;
   color: #ffffff;
 }
-@media only screen and (max-width:768px) {
-  .wrapper{
+@media only screen and (max-width: 768px) {
+  .wrapper {
     align-items: center;
   }
   .sister {
@@ -404,9 +399,9 @@ header{
     height: 300px;
   }
 }
-@media only screen and (max-width:360px) {
-  #sister .wrapper{
-    flex-direction:column ;
+@media only screen and (max-width: 360px) {
+  #sister .wrapper {
+    flex-direction: column;
   }
   .sister {
     width: 355px;
@@ -417,7 +412,6 @@ header{
   }
   .left {
     position: relative;
-
   }
   .color {
     position: absolute;
@@ -445,12 +439,11 @@ header{
     flex-direction: column;
     text-align: center;
     row-gap: 30px;
-
   }
-  .about h2{
+  .about h2 {
     font-size: 30px;
   }
-   .about button {
+  .about button {
     width: 142px;
     height: 42px;
     border-radius: 5px;
@@ -533,7 +526,7 @@ header{
   justify-content: space-between;
   column-gap: 2px;
 }
-@media only screen and (max-width:768px) {
+@media only screen and (max-width: 768px) {
   .menu {
     display: flex;
     align-items: center;
@@ -609,7 +602,7 @@ header{
     column-gap: 2px;
   }
 }
-@media only screen and (max-width:360px) {
+@media only screen and (max-width: 360px) {
   .menu {
     display: flex;
     align-items: center;
@@ -648,7 +641,6 @@ header{
   .radius {
     width: 100%;
   }
-
 }
 .left1 {
   width: 540px;
@@ -692,7 +684,7 @@ header{
   justify-content: center;
   box-shadow: 0 0 0 1px silver;
 }
-#chisec{
+#chisec {
   background-color: #fbf1e7;
 }
 .wrapper5 {
@@ -713,6 +705,47 @@ header{
   position: absolute;
   top: -80px;
   right: 30px;
+}
+@media only screen and (max-width: 360px) {
+  .left1 {
+    width: 200px;
+    align-items: center;
+    justify-content: center;
+  }
+  .marketing {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  .marketing h2 {
+    font-size: 28px;
+  }
+  .buttons {
+    column-gap: 20px;
+  }
+  .appstore {
+    width: 130px;
+  }
+  .googleplay {
+    width: 130px;
+  }
+  .wrapper5 {
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+  }
+  .right1 {
+    width: 100%;
+  }
+  .phone {
+    width: 100px;
+    height: 150px;
+    order: -1;
+    /* position: absolute;
+    top: 0;
+    right: 0;
+    z-index: -1; */
+  }
 }
 .wrapper6 {
   display: flex;
@@ -774,13 +807,13 @@ header{
   text-align: center;
   row-gap: 20px;
 }
-#last{
+#last {
   background-color: #dc770b1a;
 }
 .input {
   width: 750px;
   height: 75px;
-  border-radius:10px;
+  border-radius: 10px;
   position: relative;
 }
 .input input {
@@ -790,22 +823,76 @@ header{
   border: none;
   outline: none;
 }
-.input input::placeholder{
+.input input::placeholder {
   font-family: Roboto;
   font-weight: 400px;
-  font-size:16px;
+  font-size: 16px;
   padding: 20px 5px 500px 5px;
- 
 }
 .input button {
   width: 156px;
   height: 75px;
-  background-color: #DC780B;
+  background-color: #dc780b;
   border-radius: 10px;
   position: absolute;
   z-index: 10;
   top: 0;
   right: 0;
+}
+@media only screen and (max-width: 360px) {
+  .mainwrapper {
+    width: 100%;
+    height: 448px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* flex-direction: column; */
+  }
+  .contact {
+    width: 550px;
+    height: 216px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    row-gap: 20px;
+  }
+  .contact h2 {
+    font-size: 20px;
+  }
+  #last {
+    background-color: #dc770b1a;
+  }
+  .input {
+    width: 340px;
+    height: 55px;
+    border-radius: 10px;
+    position: relative;
+  }
+  .input input {
+    width: 100%;
+    height: 75px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+  }
+  .input input::placeholder {
+    font-family: Roboto;
+    font-weight: 400px;
+    font-size: 16px;
+    padding: 20px 5px 500px 5px;
+  }
+  .input button {
+    width: 126px;
+    height: 75px;
+    background-color: #dc780b;
+    border-radius: 10px;
+    position: absolute;
+    z-index: 10;
+    top: 0;
+    right: 0;
+  }
 }
 footer {
   height: 429px;
@@ -814,43 +901,43 @@ footer {
   align-items: center;
   justify-content: center;
 }
-.foot{
+.foot {
   width: 262px;
   display: flex;
   flex-direction: column;
   row-gap: 20px;
 }
-.foot ul{
+.foot ul {
   display: flex;
   align-items: start;
   justify-content: center;
   flex-direction: column;
   row-gap: 20px;
 }
-.foot1{
+.foot1 {
   width: 262px;
 }
-.foot1 ul{ 
+.foot1 ul {
   display: flex;
   align-items: start;
   justify-content: center;
   flex-direction: column;
   row-gap: 17px;
 }
-.foot2{
+.foot2 {
   width: 262px;
 }
-.foot2 ul{
+.foot2 ul {
   display: flex;
   align-items: start;
   justify-content: center;
   flex-direction: column;
   row-gap: 17px;
 }
-.foot3{
+.foot3 {
   width: 262px;
 }
-.foot3 ul{
+.foot3 ul {
   display: flex;
   align-items: start;
   justify-content: center;
@@ -885,21 +972,21 @@ footer {
   color: #ffffffce;
   text-decoration: none;
 }
-.footh3{
-  color: #FFFFFF;
+.footh3 {
+  color: #ffffff;
 }
-.footerlogo{
+.footerlogo {
   width: 88px;
   height: 88px;
 }
-.footerimg{
+.footerimg {
   margin: 10px 0;
 }
-.footerimgs{
+.footerimgs {
   display: flex;
   gap: 5px;
 }
-@media only screen and (max-width:768px) {
+@media only screen and (max-width: 768px) {
   footer {
     height: 429px;
     background-color: #252525;
@@ -907,23 +994,57 @@ footer {
     align-items: center;
     justify-content: center;
   }
-  .foot{
+  .foot {
     width: 222px;
   }
-  .foot1{
+  .foot1 {
     width: 222px;
   }
-  .foot2{
+  .foot2 {
     width: 222px;
   }
-  .foot3{
+  .foot3 {
     width: 222px;
   }
-  .footerimg{
+  .footerimg {
     margin: 10px 0;
   }
-  .footerimgs{
+  .footerimgs {
     display: flex;
     gap: 10px;
+  }
+}
+@media only screen and (max-width: 360px) {
+  footer {
+    height: auto;
+    flex-direction: column;
+  }
+  #footer .wrapper{
+    display: flex;
+    flex-direction: column;
+    row-gap: 25px;
+  }
+  .foot {
+    row-gap: 15px;
+  }
+  .foot ul {
+    row-gap: 15px;
+  }
+  .foot1 ul {
+    row-gap: 15px;
+  }
+
+  .foot2 ul {
+    row-gap: 15px;
+  }
+  .foot3 ul {
+    row-gap: 15px;
+  }
+  .footerimg {
+    margin: 10px 0;
+  }
+  .footerimgs {
+    display: flex;
+    gap: 15px;
   }
 }
